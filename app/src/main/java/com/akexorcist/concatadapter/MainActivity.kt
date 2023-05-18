@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             setIsolateViewTypes(false)
         }.build()
         ConcatAdapter(config, oneColumnAdapter, horizontalWrapperAdapter, twoColumnAdapter)
+//        ConcatAdapter(config, oneColumnAdapter, twoColumnAdapter)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
